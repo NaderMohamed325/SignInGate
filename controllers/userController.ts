@@ -1,5 +1,5 @@
 import {NextFunction, Request, Response} from "express";
-import {catchAsync} from "../utils/catchAsync";
+import {catchAsync} from "../src/utils/catchAsync";
 import {validationResult} from "express-validator";
 
 const getHome = catchAsync(async (req: Request, res: Response, next: NextFunction) => {

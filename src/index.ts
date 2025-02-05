@@ -1,10 +1,10 @@
 import express, {NextFunction, Request, Response} from 'express';
 import morgan from 'morgan';
 import dotenv from 'dotenv';
-import AppError from "../utils/AppError";
-import {ErrorHandler} from "../utils/ErrorHandler";
-import {userRouter} from "../routers/userRouter";
-import {authRouter} from "../routers/authRouter";
+import AppError from "./utils/AppError";
+import {ErrorHandler} from "./utils/ErrorHandler";
+import {userRouter} from "./routers/userRouter";
+import {authRouter} from "./routers/authRouter";
 import favicon from 'serve-favicon';
 
 dotenv.config();
@@ -18,6 +18,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(morgan('dev'));
 app.set("view engine", "ejs");
 app.use(express.static("public"));
+
 
 
 
