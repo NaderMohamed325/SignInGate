@@ -1,6 +1,8 @@
-# Express Validator Example
 
-This project demonstrates how to use `express-validator` for server-side validation in an Express.js application. The application includes user sign-up functionality with validation for name, email, password, and password confirmation fields.
+
+# SignInGate
+
+This project demonstrates how to use `express-validator` for server-side validation in an Express.js application. The application includes user sign-up functionality with validation for name, email, and password.
 
 ## Project Structure
 
@@ -18,8 +20,8 @@ This project demonstrates how to use `express-validator` for server-side validat
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/NaderMohamed325/express-validator-example.git
-    cd express-validator-example
+    git clone https://github.com/NaderMohamed325/SignInGate.git
+    cd SignInGate
     ```
 
 2. Install dependencies:
